@@ -5,11 +5,10 @@ let jug2;
 console.log("Bienvenido al juego de piedra, papel o tijera");
 
 function partida() {
-    switch (prompt("Escoge una opcion: 1.iniciar , 2.volver a jugar, 3.salir")) {
+    switch (prompt("Escoge una opcion: 1.iniciar, 2.volver a jugar, 3.salir")) {
         case "1":
             jug1 = prompt("Jugador 1, escoge tu jugada: piedra, papel o tijera");
             jug2 = prompt("Jugador 2, escoge tu jugada: piedra, papel o tijera");
-
             if (
                 (jug1 !== "piedra" && jug1 !== "papel" && jug1 !== "tijera") ||
                 (jug2 !== "piedra" && jug2 !== "papel" && jug2 !== "tijera")
