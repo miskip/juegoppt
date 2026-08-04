@@ -14,7 +14,7 @@ function partida() {
                 (jug2 !== "piedra" && jug2 !== "papel" && jug2 !== "tijera")
                ) 
             {
-                alert("Opción inválida, Solo puedes escribir piedra, papel o tijera");
+                alert("Opcion inválida, Solo puedes escribir piedra, papel o tijera");
             }
             else if (jug1 === jug2) 
             {
